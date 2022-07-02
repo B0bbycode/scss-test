@@ -1,0 +1,80 @@
+/* background colors */
+
+$bg-primary: #45bf88;
+$bg-secondary: #0069d4;
+$bg-transparent: #ffffff;
+$bg-dark: #000000;
+
+/* text colors */
+
+$tingle-primary: #fff;
+$tingle-secondary: #d40000;
+$tingle-dark: #000000;
+$tingle--amber: #dec226;
+
+/* body */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* pager */
+
+.pager {
+    width: 100%;
+}
+
+.section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+    &-decoration-1 {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        background-color: $bg-secondary;
+        color: $bg-transparent;
+    }
+    &-decoration-2 {
+        background-color: $bg-primary;
+        color: $tingle--amber;
+    }
+}
+
+
+/* buttons */
+
+.btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin: 0;
+    border-radius: 5px;
+    border: none;
+    &-circle {
+        border-radius: 10px;
+        color: $bg-primary;
+        padding: 1rem;
+         :hover {
+            background-color: $bg-secondary;
+        }
+    }
+    &-primary {
+        margin-top: 4px;
+        color: $bg-transparent;
+        background-color: $bg-secondary;
+         :hover {
+            background-color: $bg-dark;
+            color: $bg-transparent;
+        }
+    }
+}

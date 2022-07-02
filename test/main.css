@@ -1,0 +1,74 @@
+/* background colors */
+/* text colors */
+/* body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* pager */
+.pager {
+  width: 100%;
+}
+
+.section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.section-decoration-1 {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  background-color: #0069d4;
+  color: #ffffff;
+}
+
+.section-decoration-2 {
+  background-color: #45bf88;
+  color: #dec226;
+}
+
+/* buttons */
+.btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin: 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-circle {
+  border-radius: 10px;
+  color: #45bf88;
+  padding: 1rem;
+}
+
+.btn-circle :hover {
+  background-color: #0069d4;
+}
+
+.btn-primary {
+  margin-top: 4px;
+  color: #ffffff;
+  background-color: #0069d4;
+}
+
+.btn-primary :hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
